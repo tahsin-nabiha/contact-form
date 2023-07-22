@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+
+section{
+    background: url(./img/bg.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.form-box{
+    padding: 40px 80px 50px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px #008f9c23;
+    overflow-y: scroll;
+    max-height: 520px;
+}
+
+.form-control:focus {
+    box-shadow: 0px 0px 3px  #008f9c4b;
+}
+
+
+.form-box .submit{
+    background-color: #008f9c;
+    color: #fff;
+}
+
+.form-box .submit:hover{
+    background-color: #007d88;
+    color: #fff;
+}
+
+button{
+    border: none;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+
+.single-file img{
+    width:70% ;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px #0000001c;
+}
+
+.img-div img{
+    box-shadow: 0px 0px 5px #0000001c;
+    max-height: 150px;
+}
+
+.single-file{
+    position: relative;
+}
+
+
+.close{
+    background-color: #ddd;
+    padding: 2px 6px;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 2px;
+    right: 30.5%;
+    display: none;
+}
+
+.img-div{
+    position: relative;
+}
+
+.closebtn2{
+    background-color: #ddd;
+    padding: 2px 6px;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    top: 2px;
+    right: 9%;
+}
+
+
+
+.multiple-file div{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+/**** Scroll Bar ****/
+.form-box::-webkit-scrollbar {
+    width: 3px;
+}
+   
+.form-box::-webkit-scrollbar-track {
+    background: transparent; 
+}
+   
+.form-box::-webkit-scrollbar-thumb {
+    background-color: #008f9c;
+    max-height: 50%; 
+    height: 50%;
+}
